@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 100px;
+}
+
+/* CSS */
+.box1 {
+  margin: 15px;
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+  background-color: #1899d6;
+}
+
+.box2 {
+  margin: 20px;
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+  background-color: #1899d6;
+}
+
+.center {
+  text-align: center;
+}

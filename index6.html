@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index6.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Como facilitar o cálculo do tamanho de uma caixa?</h1>
+      <div>
+        <div class="coluna">
+          <h3>box-sizing: content-box;</h3>
+          <div class="box">BOX</div>
+          <p>
+            <code>
+              .box { <br />
+              &nbsp;&nbsp; margin: 15px;<br />
+              &nbsp;&nbsp; padding: 20px;<br />
+              &nbsp;&nbsp; width: 90px;<br />
+              &nbsp;&nbsp; height: 90px;<br />
+              }
+            </code>
+          </p>
+        </div>
+
+        <div class="coluna">
+          <h3>box-sizing: border-box;</h3>
+          <div class="box" style="box-sizing: border-box">BOX</div>
+          <p>
+            <code>
+              .box { <br />
+              &nbsp;&nbsp; margin: 15px;<br />
+              &nbsp;&nbsp; padding: 20px;<br />
+              &nbsp;&nbsp; width: 90px;<br />
+              &nbsp;&nbsp; height: 90px;<br />
+              }
+            </code>
+          </p>
+        </div>
+      </div>
+
+      <p class="rodape">
+        <a href="index5.html">Continuar</a>
+      </p>
+    </div>
+  </body>
+</html>

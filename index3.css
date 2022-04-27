@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 100px;
+}
+
+/* CSS */
+.box {
+  margin: 20px;
+  border: 10px solid #ff8902;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: #1899d6;
+}
+
+.center {
+  text-align: center;
+}

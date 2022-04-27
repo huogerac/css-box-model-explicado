@@ -1,0 +1,16 @@
+.rodape {
+  position: fixed;
+  bottom: 10px;
+  padding: 0 20px;
+}
+
+.center {
+  text-align: center;
+  font-size: 26px;
+  line-height: 100vh;
+}
+
+.full-screen {
+  line-height: 100vh;
+  font-size: 26px;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 100px;
+}
+
+/* CSS */
+.box {
+  margin: 20px;
+  border: 10px solid #ff8902;
+  padding: 20px;
+  background-color: #1899d6;
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 100px;
+}
+
+/* CSS */
+.box {
+  margin: 15px;
+  padding: 20px;
+  width: 90px;
+  height: 90px;
+  background-color: #1899d6;
+  color: #fff;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.coluna {
+  display: inline-block;
+  width: 45%;
+  vertical-align: text-top;
+}
